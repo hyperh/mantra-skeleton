@@ -30,3 +30,5 @@ meteortoys:allthings
 accounts-base
 accounts-ui
 accounts-password
+
+# meson:electron
