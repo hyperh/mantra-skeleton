@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => (
+const Component = () => (
   <div id="main-page">
     <div>Hello World</div>
     <div><a href="/login">Go to login</a></div>
@@ -8,4 +8,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Component;
