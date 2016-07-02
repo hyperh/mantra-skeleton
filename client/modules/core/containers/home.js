@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDeps, composeWithTracker, composeAll} from 'mantra-core';
-import Home from '../components/Home.jsx';
+import Home from '../components/Home';
 
 const depsMapper = (context, actions) => ({
   context: () => context
