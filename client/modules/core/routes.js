@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'react-mounter';
 
+import { EnsureLoggedIn } from 'meteor-auth';
 import MainLayout from './components/MainLayout';
 import Home from './containers/Home';
 import ForLoggedInOnly from './containers/ForLoggedInOnly';
@@ -21,7 +22,7 @@ export default function (injectDeps, { Meteor, FlowRouter, Collections, LocalSta
     name: 'root',
     action() {
       mount(MainLayoutCtx, {
-        content: () => (<ForLoggedInOnly />),
+        content: () => (<EnsureLoggedIn><ForLoggedInOnly /></EnsureLoggedIn>),
       });
     },
   });
