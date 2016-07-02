@@ -6,7 +6,7 @@ import MainLayout from './components/MainLayout';
 import Home from './containers/Home';
 import ForLoggedInOnly from './containers/ForLoggedInOnly';
 
-export default function (injectDeps, { Meteor, FlowRouter, Collections, LocalState }) {
+export default function (injectDeps, { FlowRouter }) {
   const MainLayoutCtx = injectDeps(MainLayout);
 
   FlowRouter.route('/', {
