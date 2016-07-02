@@ -29,7 +29,7 @@
     "eslint-plugin-meteor": "^3.6.0",
     "eslint-plugin-react": "^5.2.2",
     "mocha": "2.x.x",
-    "react-addons-test-utils": "^0.14.6",
+    "react-addons-test-utils": "^15.2.0",
     "sinon": "1.17.x"
   },
   "dependencies": {
