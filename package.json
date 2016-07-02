@@ -20,7 +20,7 @@
     "babel-preset-stage-2": "6.x.x",
     "babel-root-slash-import": "1.x.x",
     "chai": "3.x.x",
-    "enzyme": "1.x.x",
+    "enzyme": "^2.3.0",
     "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-import-resolver-meteor": "^0.2.4",
@@ -36,12 +36,8 @@
     "mantra-core": "^1.4.0",
     "meteor-node-stubs": "~0.2.0",
     "ramda": "^0.21.0",
-    "react": "^0.14.6",
-    "react-addons-perf": "^0.14.7",
-    "react-addons-pure-render-mixin": "^0.14.7",
-    "react-chatview": "0.0.1-alpha.8",
-    "react-css-transition-replace": "^1.1.1",
-    "react-dom": "^0.14.6",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
     "react-mounter": "^1.0.0"
   }
 }
