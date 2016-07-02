@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'react-mounter';
 
-import MainLayout from '../core/components/main_layout.jsx';
+import MainLayout from '../core/components/MainLayout';
 import Login from './containers/Login';
 
 export default function (injectDeps, { Meteor, FlowRouter, Collections, LocalState }) {
