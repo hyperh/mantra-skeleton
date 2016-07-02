@@ -1,19 +1,16 @@
-import React from 'react';
-import {useDeps, composeWithTracker, composeAll} from 'mantra-core';
-import Home from '../components/Home';
+import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
+import Component from '../components/Home';
 
-const depsMapper = (context, actions) => ({
-  context: () => context
+const depsMapper = (context) => ({
+  context: () => context,
 });
 
-export const composer = ({context}, onData) => {
-  const {Meteor, FlowRouter, Collections} = context();
+export const composer = ({ context }, onData) => {
+  // const {Meteor, FlowRouter, Collections} = context();
   onData(null, {});
 };
 
 export default composeAll(
-  composeWithTracker(composer, function () {
-    return React.createElement('div', null);
-  }),
+  composeWithTracker(composer),
   useDeps(depsMapper)
-)(Home);
+)(Component);
