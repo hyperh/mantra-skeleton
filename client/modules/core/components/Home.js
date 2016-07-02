@@ -2,7 +2,8 @@ import React from 'react';
 
 const Home = () => (
   <div id="main-page">
-    Hello World
+    <div>Hello World</div>
+    <a href="/login">Go to login</a>
   </div>
 );
 
