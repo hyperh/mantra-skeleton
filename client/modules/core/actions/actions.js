@@ -1,5 +1,5 @@
 export default {
-  myAction(context) {
+  myAction() { // Receives context object
     console.log('myAction');
-  }
+  },
 };
