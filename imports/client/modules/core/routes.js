@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'react-mounter';
 
 import { EnsureLoggedIn } from 'meteor-auth';
-import MainLayout from './components/MainLayout';
+import MainLayout from '/client/MainLayout';
 import Home from './containers/Home';
 import ForLoggedInOnly from './containers/ForLoggedInOnly';
 
