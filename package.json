@@ -29,11 +29,12 @@
     "eslint-plugin-meteor": "^3.6.0",
     "eslint-plugin-react": "^5.2.2",
     "mocha": "2.x.x",
-    "react-addons-test-utils": "^0.14.6",
+    "react-addons-test-utils": "^15.2.0",
     "sinon": "1.17.x"
   },
   "dependencies": {
     "mantra-core": "^1.4.0",
+    "meteor-auth": "^0.2.0",
     "meteor-node-stubs": "~0.2.0",
     "ramda": "^0.21.0",
     "react": "^15.2.0",
