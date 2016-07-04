@@ -1,3 +1,3 @@
-import methods from './methods';
+import methods from '../imports/server/methods';
 
 methods();
